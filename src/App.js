@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
+import MainNav from './Component/MainNav/main-nav';
+import SharedDataTab from './Component/SharedDataTab/shared-data-tab.component';
+import SideNav from './Component/SideNav/Side-Nav.components';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+        <MainNav/>
+        
+        <SideNav active="active"/>
+        
+        <SharedDataTab/>
+        
     </div>
   );
 }
