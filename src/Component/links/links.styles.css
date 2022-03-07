@@ -1,0 +1,41 @@
+.md-link {
+  display: inline-block;
+  justify-content: flex-end;
+  position: relative;
+  top: 0px;
+  left: 620px;
+  width: 30px;
+  height: 56px;
+  color: #fff;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border: 1px solid #dddddd;
+  left: 400px;
+  width: 235px;
+  background-color: white;
+}
+.dropdown #dropdown-items {
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+.dropdown #dropdown-items li {
+  list-style-type: none;
+  display: block;
+  font-size: 14px;
+  font-family: "Open Sans";
+  font: normal normal normal 16px/22px Open Sans;
+  color: #00000099;
+  opacity: 1;
+  text-align: left;
+  padding: 10px;
+  width: 213px;
+  z-index: 1;
+}
+.dropdown #dropdown-items li:hover {
+  background-color: #eeeeee;
+  cursor: pointer;
+}/*# sourceMappingURL=links.styles.css.map */

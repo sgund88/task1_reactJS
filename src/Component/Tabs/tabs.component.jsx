@@ -1,36 +1,31 @@
 import React from "react";
+import "./tabs.styles.css";
 import { MdCloudUpload } from "react-icons/md";
-import './shared-data-tab.styles.css';
-
-function SharedDataTab() {
+function Tabs() {
   return (
-    <>
-      {/* <div className='Shared_Data'>
-     <span id='Cloudicon'><MdCloudUpload/></span>  Shared Data
-    </div> */}
-
+    <div className="SharedData-container">
       <div className="Container">
         <div id="Cloud">
-          <MdCloudUpload id="Cloud1"/>
+          <MdCloudUpload id="Cloud1" />
         </div>
         <div id="Shared_Data">
           <h1>Shared Data</h1>
         </div>
-        <div className="Menu-items">
-        <nav >
+      </div>
+      <div className="Menu-items">
+        <nav>
           <a href="/">APPOINTMETNT TYPES</a>
           <a href="/">BRANDING</a>
           <a href="/">INSURANCES</a>
           <a href="/">LOCATIOS</a>
-          <a href="/">PHARMACIES</a>
+          <a className="active" href="/">
+            PHARMACIES
+          </a>
           <a href="/">RESOURCES</a>
         </nav>
       </div>
-      </div>
-
-      
-    </>
+    </div>
   );
 }
 
-export default SharedDataTab;
+export default Tabs;

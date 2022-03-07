@@ -1,38 +1,30 @@
-
-
-    
-.main-nav{
+.main-nav {
     width: 100%;
-    height: 56px ;
+    height: 56px;
     margin: 0 auto;
-    background:blueviolet;
+    background: blueviolet;
     display: flex;
-    background: transparent linear-gradient(90deg, var(--primary-235ba8) 0%, var(--unnamed-color-00a9e1) 100%) 0% 0% no-repeat padding-box;
-    background: transparent linear-gradient(90deg, #235BA8 0%, #00A9E1 100%) 0% 0% no-repeat padding-box;
-    box-shadow: 0px 3px 4px #0000004D;
+    background: transparent linear-gradient(90deg, var(--primary-235ba8) 0%, var(--unnamed-color-00a9e1) 100%) 0% 0%
+        no-repeat padding-box;
+    background: transparent linear-gradient(90deg, #235ba8 0%, #00a9e1 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 4px #0000004d;
     opacity: 1;
-    // justify-content: space-between;
-   
-    #hamburger-container{
 
-        width:73px;
-        border: 2px solid red;
+    #hamburger-container {
+        width: 73px;
         display: flex;
-    
+
         align-items: center;
         justify-content: center;
-        .hamburger-menu{
+        .hamburger-menu {
             position: relative;
-            // left:16px;
-            // top:16px;
             height: 24px;
             width: 24px;
             color: white;
-           
-             
-           } 
+        }
     }
-   
 
+    .select-bar {
+        margin-top: 7px;
+    }
 }
-

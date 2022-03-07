@@ -1,0 +1,35 @@
+.outer-box {
+  left: 1208px;
+  position: absolute;
+  width: auto;
+  display: flex;
+  height: 56px;
+  align-items: center;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.profile-container {
+  width: 34px;
+  height: 34px;
+  border-radius: 50px;
+  background-color: #235ba8;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-container .profile-dropdown {
+  border: 1px solid red;
+  position: absolute;
+  top: 45px;
+  right: 27px;
+  width: 143px;
+  height: 176px;
+}
+
+.profile-container .profile-dropdown li:hover {
+  background-color: #eeeeee;
+}
+
+/*# sourceMappingURL=profile.component.styles.css.map *//*# sourceMappingURL=profile.styles.css.map */

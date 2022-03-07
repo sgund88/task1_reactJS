@@ -1,0 +1,19 @@
+.filter-panel {
+    background-color: #f3f3f3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px 4px;
+    padding: 6px;
+    border-radius: 5px;
+    align-items: center;
+
+    .filter-panel-child {
+        background-color: #f3f3f3;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 20px 4px;
+        padding: 6px;
+        border-radius: 5px;
+        align-items: center;
+    }
+}

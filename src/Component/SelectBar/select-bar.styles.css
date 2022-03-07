@@ -1,0 +1,13 @@
+h6 {
+  padding: 0px 0px;
+  margin: 0px 12px;
+}
+
+select {
+  margin: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 350px;
+  height: 32px;
+  color: black;
+}/*# sourceMappingURL=select-bar.styles.css.map */

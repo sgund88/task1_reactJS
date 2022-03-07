@@ -1,0 +1,23 @@
+.input {
+    width: 100%;
+    float: left;
+    .icon {
+        margin-top: 5px;
+        padding: 7px;
+        color: #777777;
+        position: absolute;
+    }
+
+    input[type="text"],
+    select {
+        padding: 16px 13px;
+        margin: 5px 0px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        box-sizing: border-box;
+        width: 380px;
+        height: 14px;
+        text-indent: 14px;
+    }
+}

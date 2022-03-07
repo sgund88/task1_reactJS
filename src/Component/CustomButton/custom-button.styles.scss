@@ -1,0 +1,46 @@
+.custom-button {
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    background: none;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #235ba8;
+    width: auto;
+    height: 30px;
+    margin-left: 10px;
+    padding: 5px 0px;
+    background-color: transparent;
+
+    &:hover {
+        background: #2baeff14 0% 0% no-repeat padding-box;
+        border-radius: 4px;
+    }
+
+    &.button-enable {
+        color: #235ba8;
+        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+        background: #ffffff 0% 0% no-repeat padding-box;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+
+        &:hover {
+            background-color: #235ba8;
+            color: #ffffff;
+        }
+    }
+
+    &.button-disable {
+        color: #00000061;
+        display: inline-block;
+        box-sizing: border-box;
+
+        /* UI Properties */
+        background: var(--unnamed-color-dddddd) 0% 0% no-repeat padding-box;
+        border: 1px solid var(--unnamed-color-dddddd);
+        background: #dddddd 0% 0% no-repeat padding-box;
+        border: 1px solid #dddddd;
+        border-radius: 4px;
+    }
+}

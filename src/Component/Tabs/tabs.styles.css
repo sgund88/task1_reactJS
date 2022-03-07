@@ -1,0 +1,97 @@
+.SharedData-container {
+    /* width: 1384px; */
+    height: 169px;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    /* border: 2px solid blue; */
+}
+.Container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    top: 31px;
+    left: 0px;
+    width: 236px;
+    height: 44px;
+    /* border: 2px solid brown; */
+}
+.Menu-items {
+    display: flex;
+    position: absolute;
+    top: 99px;
+    align-items: center;
+    width: 100%;
+    height: 48px;
+    /* border: 2px solid rgb(228, 28, 218); */
+    border-bottom: 1px solid #b5b5b5;
+}
+/* .Menu-items nav{
+    width: 106px;
+    height: 48px;
+} */
+.Menu-items nav a {
+    width: 106px;
+    height: 48px;
+    /* border: 2px solid red; */
+    text-decoration: none;
+    font-size: 14px;
+    font: normal normal 600 14px/24px "Open Sans";
+    color: #00000099;
+    text-align: center;
+    position: relative;
+    left: -28px;
+    margin-left: 34px;
+    padding: 14px;
+}
+.Menu-items nav a:hover {
+    background-color: #2baeff14;
+}
+.Menu-items nav a::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 44px;
+    background-color: #235ba8;
+    width: 0;
+    height: 4px;
+    border-radius: 3px 3px 0px 0px;
+    opacity: 1;
+}
+.Menu-items nav a:hover::after {
+    width: 100%;
+}
+
+#Cloud {
+    width: 32px;
+    height: 21.28px;
+    position: absolute;
+    left: 6px;
+    top: 11.36px;
+    /* border: 2px solid orangered; */
+}
+#Cloud1 {
+    position: relative;
+    top: -5px;
+    font-size: 32px;
+    /* width: 32px;
+    height: 21.28px; */
+    /* border: 2px solid orangered; */
+    color: #235ba8;
+}
+#Shared_Data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 190px;
+    height: 44px;
+
+    /* border: 2px solid greenyellow; */
+}
+#Shared_Data h1 {
+    font-size: 32px;
+    color: #000000de;
+    font-family: "Open Sans";
+}
