@@ -23,6 +23,7 @@
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  width: 105px;
 }
 .custom-button.button-enable:hover {
   background-color: #235ba8;
@@ -32,10 +33,10 @@
   color: #00000061;
   display: inline-block;
   box-sizing: border-box;
-  /* UI Properties */
   background: var(--unnamed-color-dddddd) 0% 0% no-repeat padding-box;
   border: 1px solid var(--unnamed-color-dddddd);
   background: #dddddd 0% 0% no-repeat padding-box;
   border: 1px solid #dddddd;
   border-radius: 4px;
+  width: 90px;
 }/*# sourceMappingURL=custom-button.styles.css.map */

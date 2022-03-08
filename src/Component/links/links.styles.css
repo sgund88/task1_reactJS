@@ -21,6 +21,8 @@
 .dropdown #dropdown-items {
   margin: 0px 0px;
   padding: 0px 0px;
+  z-index: 1;
+  background-color: white;
 }
 .dropdown #dropdown-items li {
   list-style-type: none;

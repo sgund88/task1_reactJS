@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import "./profile.styles.css";
 
 export default function Profile() {
-  const [open, setOpen] = useState(false);
+  //const [open, setOpen] = useState(false);
 
   // const handleClick = () => {
   //   setOpen(!open);
